@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Upload Project</title>
+</head>
+<body>
+
+    <h2>Upload Your Content</h2>
+
+    <form action="/submit" method="POST" enctype="multipart/form-data">
+
+        <label for="title">Project Title:</label><br>
+        <input type="text" id="title" name="title"><br><br>
+
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" rows="4" cols="30"></textarea><br><br>
+
+        <label for="image1">Upload First Image:</label><br>
+        <input type="file" id="image1" name="image1" accept="image/*"><br><br>
+
+        <label for="image2">Upload Second Image:</label><br>
+        <input type="file" id="image2" name="image2" accept="image/*"><br><br>
+
+        <button type="submit">Submit Project</button>
+
+    </form>
+
+</body>
+</html>

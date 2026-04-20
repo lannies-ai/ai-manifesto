@@ -2,29 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Upload Project</title>
+    <title>Manifesto Drafts</title>
+    
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            max-width: 800px; /* Keeps the page neatly contained in the center */
+            margin: 0 auto;   /* Centers the container */
+            padding: 40px 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        img {
+            max-width: 100%; /* Forces images to never spill off the screen */
+            height: auto;
+            border: 1px solid #ccc; /* Adds a subtle, professional border */
+            border-radius: 8px; /* Slightly rounds the corners of your images */
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 <body>
 
-    <h2>Upload Your Content</h2>
+    <h1>My Manifesto: Three Iterations</h1>
+    <p>Welcome to my final project. Below, you can explore the evolution of my manifesto through its three distinct phases, combining my raw text with the final imagery.</p>
 
-    <form action="/submit" method="POST" enctype="multipart/form-data">
+    <h2>Version 1: The Initial Concept</h2>
+    <p>Type out the raw text or ideas for your first version right here. You can make this as long as you want!</p>
+    <img src="IMG_9019.jpeg" alt="Manifesto Draft 1">
 
-        <label for="title">Project Title:</label><br>
-        <input type="text" id="title" name="title"><br><br>
+    <h2>Version 2: The Refinement</h2>
+    <p>Here is where you discuss what changed in the second version, along with the raw text for this stage.</p>
+    <img src="0D5A5299.jpg" alt="Manifesto Draft 2">
 
-        <label for="description">Description:</label><br>
-        <textarea id="description" name="description" rows="4" cols="30"></textarea><br><br>
-
-        <label for="image1">Upload First Image:</label><br>
-        <input type="file" id="image1" name="image1" accept="image/*"><br><br>
-
-        <label for="image2">Upload Second Image:</label><br>
-        <input type="file" id="image2" name="image2" accept="image/*"><br><br>
-
-        <button type="submit">Submit Project</button>
-
-    </form>
+    <h2>Version 3: The Final Cut</h2>
+    <p>This is the final text of my manifesto, representing the completed vision.</p>
+    <img src="manifesto_v3.jpg" alt="Manifesto Draft 3">
 
 </body>
 </html>
